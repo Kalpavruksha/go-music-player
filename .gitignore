@@ -1,0 +1,48 @@
+# Dependencies
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binaries
+bin/
+dist/
+build/
+
+# Configuration
+*.env
+.env*
+
+# IDE
+*.vscode
+*.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Go specific
+*.out
+*.test
+go.mod
+go.sum
+
+# Screenshots placeholders
+screenshots/*.txt
+
+# Media files
+*.mp3
+*.wav
+*.ogg
+*.flac
+songs/
