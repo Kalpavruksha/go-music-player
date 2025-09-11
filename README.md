@@ -45,6 +45,8 @@ music-player/
 
 1. **Place your music files**:
    - Add your MP3/WAV/OGG/FLAC files to the `songs/` folder
+   - **Note**: For version control efficiency, this repository doesn't include actual music files
+   - You can add your own music files or use the sample files provided in releases
 
 2. **Run the server**:
    ```bash
@@ -53,6 +55,28 @@ music-player/
 
 3. **Access the player**:
    - Open your browser and navigate to `http://localhost:8080`
+
+## 🎵 Adding Music Files
+
+### Option 1: Add Your Own Music
+1. Copy your MP3/WAV/OGG/FLAC files to the `songs/` directory
+2. Supported formats:
+   - MP3 (.mp3)
+   - WAV (.wav)
+   - OGG (.ogg)
+   - FLAC (.flac)
+3. Refresh the player interface to see your songs
+
+### Option 2: Use Sample Files
+Sample music files are available in the [Releases](https://github.com/Kalpavruksha/go-music-player/releases) section of this repository.
+Download and extract them to the `songs/` directory.
+
+### Option 3: Create Test Files
+You can create small test files for development:
+```bash
+# Create a 10-second silent MP3 for testing (requires ffmpeg)
+ffmpeg -f lavfi -i anullsrc=r=44100:cl=mono -t 10 -q:a 9 -acodec libmp3lame songs/test.mp3
+```
 
 ## 🎯 Usage
 
@@ -168,3 +192,4 @@ See the detailed implementation plans in:
 - The application automatically creates the required directories on startup
 - For best results, use modern browsers that support HTML5 audio
 - No external dependencies required (Tailwind CSS is loaded via CDN)
+- Large music files should not be committed to the repository

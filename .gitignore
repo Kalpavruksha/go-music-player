@@ -40,9 +40,11 @@ go.sum
 # Screenshots placeholders
 screenshots/*.txt
 
-# Media files
+# Media files - exclude most but allow small samples
 *.mp3
 *.wav
 *.ogg
 *.flac
+!songs/sample*
+!songs/*.sample.*
 songs/
