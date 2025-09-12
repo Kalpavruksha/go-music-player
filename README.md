@@ -182,6 +182,7 @@ This basic player can be enhanced with professional features:
 - Internet radio streaming
 - Audiobook support
 
+
 See the detailed implementation plans in:
 - [ADVANCED_FEATURES.md](ADVANCED_FEATURES.md) - Feature specifications
 - [ADVANCED_IMPLEMENTATION.md](ADVANCED_IMPLEMENTATION.md) - Code examples
