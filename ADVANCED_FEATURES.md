@@ -2,6 +2,7 @@
 
 This document outlines how to implement advanced features for the Go Music Player to transform it from a basic player to a professional-grade music streaming application.
 
+
 ## 🎵 Playlists & Libraries
 
 ### User-Created Playlists
