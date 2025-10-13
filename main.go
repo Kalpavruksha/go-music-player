@@ -113,6 +113,7 @@ func streamSongHandler(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/octet-stream")
 	}
 
+
 	// Stream the file
 	http.ServeFile(w, r, fullPath)
 }
