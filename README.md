@@ -2,6 +2,7 @@
 A modern, professional web-based music player built with Go and enhanced with Tailwind CSS that allows users to play songs from a local folder.
 
 
+
 <p align="center">
   <img src="screenshots/dashboard.png" alt="Music Player Dashboard" width="100%">
 </p>
