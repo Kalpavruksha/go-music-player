@@ -10,7 +10,6 @@ import (
 	"github.com/gofiber/websocket/v2"
 	"github.com/gorilla/websocket"
 )
-
 // WebSocket message types
 type MessageType string
 
